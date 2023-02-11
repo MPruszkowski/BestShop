@@ -24,6 +24,7 @@ a {
     --color-grey: #a5a5a5;
     --color-light-grey: #f7f7f7;
     --color-white: #fff;
+    --button-radius: 35px;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
 }
@@ -52,6 +53,7 @@ a {
 }
 
 .nav__link {
+    font-family: var(--font-raleway);
     color: var(--color-grey);
     font-weight: 700;
     font-size: 0.6875rem;
@@ -86,5 +88,39 @@ a {
 }
 
 .opening__header {
-    
+    font-family: var(--font-raleway);
+    font-size: 49px;
 }
+
+.opening__heading {
+    font-family: var(--font-raleway);
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+
+.opening__image {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 16px 65px;
+    border-radius: var(--button-radius);
+    border: none;
+}
+
+.btn--primary {
+    font-family: var(--font-raleway);
+    background-color: var(--color-primary);
+    border-radius: var(--button-radius);
+    box-shadow: 3px 10px 14px var(--color-primary-shadow);
+}
+
+.btn--large {
+    padding: 22px 155px;
+}
+
+
